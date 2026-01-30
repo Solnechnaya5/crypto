@@ -1,0 +1,45 @@
+.coins-list{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+  padding: 20px;  
+  margin-top: 50px;
+}
+.coin-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+.coin-item:hover{
+  background-color: #be81f03f;
+}
+.coin-item__info{
+  display: flex;
+  align-items: center;
+}
+.price-info{
+  flex-direction: column;
+  align-items: flex-end;
+}
+.coin-item__info .coin-icon{
+  width: 32px;
+  height: 32px;
+}
+.coin-item__info .coin-name{
+  font-weight: bold;
+  font-size: 16px;
+}
+.coin-item__info .coin-price,
+.coin-item__info .coin-btc-price{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.coin-item__info .coin-price{
+  margin-bottom: 12px;
+}

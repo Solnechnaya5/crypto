@@ -1,0 +1,29 @@
+.balance-card {
+    width: 280px;
+    height: 160px;
+    padding: 15px;
+    border-radius: 16px;
+    color: #FFF;
+    background-color: rgb(3, 0, 5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+	.balance-card__amount {
+	  font-size: 18px;
+	}
+	.balance-card__details {
+	  display: flex;
+      justify-content: space-between;
+	}
+	.balance-card__name {
+	  text-transform: uppercase;
+       font-size: 18px;
+	}
+	.balance-card__user {
+	  text-transform: uppercase;
+       font-size: 18px;
+	}
+
+
