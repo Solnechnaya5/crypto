@@ -1,4 +1,7 @@
 .header{
+color: rgb(41, 6, 73);
+font-size: 20px;
+font-weight: 600;
     display: flex;
     width: 100%;
     padding: 20px;
