@@ -30,6 +30,7 @@
 .coin-item__info .coin-icon{
   width: 32px;
   height: 32px;
+  margin-right: 12px;
 }
 .coin-item__info .coin-name{
   font-weight: bold;
